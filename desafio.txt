@@ -1,0 +1,34 @@
+Repositorio: https://github.com/j0n4s/kata_select_group
+
+Problema:
+
+Una empresa tiene dos oficinas, una en Estocolmo y otra en Londres.
+Sus empleados trabajan por parejas, de tal modo que un miembro de la pareja está en Estocolmo y la otra en Londres.
+Los empleados de Estocolmo tienen nº de identificación del 1000 al 1999 y los de londres del 2000 al 2999.
+Una vez al año, la empresa reúne a todos los miembros de los equipos en una playa paradisíaca para comentar los pormenores del trabajo que cada equipo realiza, pero este año, por motivos de la crisis, deciden que será suficiente con que un miembro del equipo (parejas) vaya a la playa.
+Además, para abaratar costos, como algunos empleados están en varios equipos (parejas), irán aquellos empleados con más equipos (para que vayan lo menos empleados y salga lo más barato posible).
+
+Así, dado un archivo con los ID's de las parejas, nos piden que generemos el listado de los empleados que irán a la playa.
+Así, da igual quienes vayan al final a la playa mientras se cumpla que:
+
+1. todos los equipos (parejas) están representados por uno de sus miembros.
+2. van a la playa el menor número de empleados posible.
+
+Por ejemplo:
+Dada la entrada:
+   1009 2011
+   1017 2011
+
+La salida será:
+   2011
+
+Caso de Prueba:
+
+Entrada:
+   1009 2000
+   1009 2001
+   1002 2002
+   1003 2002
+Salida:
+   2002
+   1009
